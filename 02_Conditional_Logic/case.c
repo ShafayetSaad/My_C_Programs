@@ -4,7 +4,7 @@ int main()
 {
     char ch;
 
-    printf("Enter an alphabet: \n");
+    printf("Enter an alphabet: ");
     scanf("%c", &ch);
 
     if (ch >= 'a' && ch <= 'z'){

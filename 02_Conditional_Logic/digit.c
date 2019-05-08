@@ -4,7 +4,7 @@ int main()
 {
     char ch;
 
-    printf("Please enter a character:\n");
+    printf("Please enter a character: ");
     scanf("%c", &ch);
 
     if (ch >= '0' && ch <= '9'){

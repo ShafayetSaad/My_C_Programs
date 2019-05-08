@@ -4,7 +4,7 @@ int main()
 {
     char alf;
 
-    printf("Please enter an alphabet:\n");
+    printf("Please enter an alphabet: ");
     scanf("%c" , &alf);
 
     if (alf == 'a' || alf == 'e' || alf == 'i' || alf == 'o' || alf == 'u'){

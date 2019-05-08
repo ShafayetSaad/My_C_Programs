@@ -4,7 +4,7 @@ int main()
 {
     int marks;
 
-    printf("Please enter your marks:\n");
+    printf("Please enter your marks: ");
     scanf("%d", &marks);
 
     if (marks >= 80){

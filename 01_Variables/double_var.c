@@ -9,9 +9,9 @@ int main()
     printf("The number you have entered is %.2lf!\n", num);
 
     double x, y, sum;
-    printf("Enter the value of x:\n");
+    printf("Enter the value of x: ");
     scanf("%lf", &x);
-    printf("Enter the value of y:\n");
+    printf("Enter the value of y: ");
     scanf("%lf", &y);
     sum = x + y;
     printf("The value of (%lf + %lf) equals %lf.\n", x, y, sum);
